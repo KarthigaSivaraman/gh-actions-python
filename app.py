@@ -2,7 +2,7 @@ from flask import Flask
 import os
 import requests
 import json
-
+print("Hello")
 app = Flask(__name__)
 
 @app.route('/')
